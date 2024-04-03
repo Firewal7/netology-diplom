@@ -639,26 +639,26 @@ To https://github.com/Firewal7/diplom-applications.git
 
 1. Репозиторий с конфигурационными файлами Terraform и готовность продемонстрировать создание всех ресурсов с нуля.
 
-- [Репозиторий с Terraform](https://github.com/Firewal7/diplom-netology/tree/main/terraform)
+- [Репозиторий с Terraform](https://github.com/Firewal7/netology-diplom/tree/main/terraform)
 
 2. Пример pull request с комментариями созданными atlantis'ом или снимки экрана из Terraform Cloud или вашего CI-CD-terraform pipeline.
 
 3. Репозиторий с конфигурацией ansible, если был выбран способ создания Kubernetes кластера при помощи ansible.
 
-- [Репозиторий с ansible](https://github.com/Firewal7/diplom-netology/tree/main/ansible)
+- [Репозиторий с ansible](https://github.com/Firewal7/netology-diplom/tree/main/ansible)
  
 4. Репозиторий с Dockerfile тестового приложения и ссылка на собранный docker image.
 
-- [Репозиторий с applications](https://github.com/Firewal7/diplom-application.git)
+- [Репозиторий с applications](https://github.com/Firewal7/diplom-applications)
 - [Репозиторий Dockerhub](https://hub.docker.com/repository/docker/bbb8c2e28d7d/applications/general)
 
 5. Репозиторий с конфигурацией Kubernetes кластера.
 
-- [Репозиторий github](https://github.com/Firewal7/diplom-netology)
+- [Репозиторий github](https://github.com/Firewal7/netology-diplom/blob/main/ansible/inventory/hosts.yaml)
 
 6. Ссылка на тестовое приложение и веб интерфейс Grafana с данными доступа.
 
-- [Applications](http://51.250.39.171:30201)
-- [Grafana](http://51.250.39.171:30001) Лог: admin, Пасс: admin
+- [Applications](http://158.160.133.254:30003)
+- [Grafana](http://158.160.133.254:30001) Лог: admin, Пасс: admin
 
 7. Все репозитории рекомендуется хранить на одном ресурсе (github, gitlab)
