@@ -481,41 +481,41 @@ teamcity-server            : ok=13   changed=10   unreachable=0    failed=0    s
 
 #### Зайдём на адрес Teamcity:
 
-![Ссылка 21](https://github.com/Firewal7/diplom-netology/blob/main/images/21.starttc.jpg)
+![Ссылка 21](https://github.com/Firewal7/netology-diplom/blob/main/images/21.starttc.jpg)
 
 #### Данные для инициализации берём с конфига [Postgresgl](https://github.com/Firewal7/netology-diplom/blob/main/ansible/playbooks/postgresql.yml), и устанавливаем предложенный драйвер JDBC.
 
-![Ссылка 22](https://github.com/Firewal7/diplom-netology/blob/main/images/22.initial.jpg)
+![Ссылка 22](https://github.com/Firewal7/netology-diplom/blob/main/images/22.initial.jpg)
 
 #### Авторизируем агента:
 
-![Ссылка 23](https://github.com/Firewal7/diplom-netology/blob/main/images/23.agent.jpg)
+![Ссылка 23](https://github.com/Firewal7/netology-diplom/blob/main/images/23.agent.jpg)
 
 #### Подключил [Github](https://github.com/Firewal7/diplom-applications.git) 
 
-![Ссылка 24](https://github.com/Firewal7/diplom-netology/blob/main/images/24.connect.git.jpg)
+![Ссылка 24](https://github.com/Firewal7/netology-diplom/blob/main/images/24.connect.git.jpg)
 
 #### Подключил [Dockerhub](https://hub.docker.com/repository/docker/bbb8c2e28d7d/applications/general)
 
-![Ссылка 25](https://github.com/Firewal7/diplom-netology/blob/main/images/25.connect.docker.jpg)
+![Ссылка 25](https://github.com/Firewal7/netology-diplom/blob/main/images/25.connect.docker.jpg)
 
 #### Подключил в Build Features Docker Support
 
-![Ссылка 26](https://github.com/Firewal7/diplom-netology/blob/main/images/26.support.jpg)
+![Ссылка 26](https://github.com/Firewal7/netology-diplom/blob/main/images/26.support.jpg)
 
 ### Соберём проект:
 
 #### Этот скрипт предназначен для получения тега коммита и установки его в качестве параметра сборки.
 
-![Ссылка 27](https://github.com/Firewal7/diplom-netology/blob/main/images/27.committag.jpg)
+![Ссылка 27](https://github.com/Firewal7/netology-diplom/blob/main/images/27.committag.jpg)
 
 #### Создаём образы Docker:
 
-![Ссылка 28](https://github.com/Firewal7/diplom-netology/blob/main/images/28.docker.jpg)
+![Ссылка 28](https://github.com/Firewal7/netology-diplom/blob/main/images/28.docker.jpg)
 
 #### Отправка собранно образа в Dockerhub:
 
-![Ссылка 29](https://github.com/Firewal7/diplom-netology/blob/main/images/29.dockerhub.jpg)
+![Ссылка 29](https://github.com/Firewal7/netology-diplom/blob/main/images/29.dockerhub.jpg)
 
 ### Проверяем:
 
@@ -556,23 +556,23 @@ To https://github.com/Firewal7/diplom-applications.git
  * [new tag]         2.0 -> 2.0
 ```
 
-![Ссылка 30](https://github.com/Firewal7/diplom-netology/blob/main/images/30.git.jpg)
+![Ссылка 30](https://github.com/Firewal7/netology-diplom/blob/main/images/30.git.jpg)
 
-![Ссылка 31](https://github.com/Firewal7/diplom-netology/blob/main/images/31.build.jpg)
+![Ссылка 31](https://github.com/Firewal7/netology-diplom/blob/main/images/31.build.jpg)
 
-![Ссылка 33](https://github.com/Firewal7/diplom-netology/blob/main/images/33.dockerhub.jpg)
+![Ссылка 33](https://github.com/Firewal7/netology-diplom/blob/main/images/33.dockerhub.jpg)
 
 ### Добавим изменение тега, создание helm и выгрузку его в ChartMuseum с последующим апдейтом в кластере Kubernetes:
 
-![Ссылка 34](https://github.com/Firewal7/diplom-netology/blob/main/images/34.gethelm.jpg)
+![Ссылка 34](https://github.com/Firewal7/netology-diplom/blob/main/images/34.gethelm.jpg)
 
-![Ссылка 35](https://github.com/Firewal7/diplom-netology/blob/main/images/35.Changehelm.jpg)
+![Ссылка 35](https://github.com/Firewal7/netology-diplom/blob/main/images/35.Changehelm.jpg)
 
-![Ссылка 35.1](https://github.com/Firewal7/diplom-netology/blob/main/images/35.1.Changehelm.jpg)
+![Ссылка 35.1](https://github.com/Firewal7/netology-diplom/blob/main/images/35.1.Changehelm.jpg)
 
-![Ссылка 36](https://github.com/Firewal7/diplom-netology/blob/main/images/36.ssh.jpg)
+![Ссылка 36](https://github.com/Firewal7/netology-diplom/blob/main/images/36.ssh.jpg)
 
-![Ссылка 36.1](https://github.com/Firewal7/diplom-netology/blob/main/images/36.1.values.jpg)
+![Ссылка 36.1](https://github.com/Firewal7/netology-diplom/blob/main/images/36.1.values.jpg)
 
 ### Запустим изменения: 
 
@@ -609,31 +609,31 @@ To https://github.com/Firewal7/diplom-applications.git
  * [new tag]         14.0 -> 14.0
 ```
 
-![Ссылка 37](https://github.com/Firewal7/diplom-netology/blob/main/images/37.run.jpg)
+![Ссылка 37](https://github.com/Firewal7/netology-diplom/blob/main/images/37.run.jpg)
 
-![Ссылка 38](https://github.com/Firewal7/diplom-netology/blob/main/images/38.dockerhub.jpg)
+![Ссылка 38](https://github.com/Firewal7/netology-diplom/blob/main/images/38.dockerhub.jpg)
 
-![Ссылка 39](https://github.com/Firewal7/diplom-netology/blob/main/images/39.master.jpg)
+![Ссылка 39](https://github.com/Firewal7/netology-diplom/blob/main/images/39.master.jpg)
 
 #### Зайдём на наши ноды:
 
-![Ссылка 40](https://github.com/Firewal7/diplom-netology/blob/main/images/40.app.jpg)
+![Ссылка 40](https://github.com/Firewal7/netology-diplom/blob/main/images/40.app.jpg)
 
-![Ссылка 41](https://github.com/Firewal7/diplom-netology/blob/main/images/41.app.jpg)
+![Ссылка 41](https://github.com/Firewal7/netology-diplom/blob/main/images/41.app.jpg)
 
 #### Пробуем обновить версию ещё раз:
 
-![Ссылка 42](https://github.com/Firewal7/diplom-netology/blob/main/images/42.run.jpg)
+![Ссылка 42](https://github.com/Firewal7/netology-diplom/blob/main/images/42.run.jpg)
 
-![Ссылка 43](https://github.com/Firewal7/diplom-netology/blob/main/images/43.git.jpg)
+![Ссылка 43](https://github.com/Firewal7/netology-diplom/blob/main/images/43.git.jpg)
 
-![Ссылка 44](https://github.com/Firewal7/diplom-netology/blob/main/images/44.dockerhub.jpg)
+![Ссылка 44](https://github.com/Firewal7/netology-diplom/blob/main/images/44.dockerhub.jpg)
 
-![Ссылка 45](https://github.com/Firewal7/diplom-netology/blob/main/images/45.master.jpg)
+![Ссылка 45](https://github.com/Firewal7/netology-diplom/blob/main/images/45.master.jpg)
 
-![Ссылка 46](https://github.com/Firewal7/diplom-netology/blob/main/images/46.app.jpg)
+![Ссылка 46](https://github.com/Firewal7/netology-diplom/blob/main/images/46.app.jpg)
 
-![Ссылка 47](https://github.com/Firewal7/diplom-netology/blob/main/images/47.app.jpg)
+![Ссылка 47](https://github.com/Firewal7/netology-diplom/blob/main/images/47.app.jpg)
 
 ## Что необходимо для сдачи задания?
 
