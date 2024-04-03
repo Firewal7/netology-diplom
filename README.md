@@ -507,7 +507,7 @@ teamcity-server            : ok=13   changed=10   unreachable=0    failed=0    s
 
 #### Этот скрипт предназначен для получения тега коммита и установки его в качестве параметра сборки.
 
-![Ссылка 27](https://github.com/Firewal7/netology-diplom/blob/main/images/27.committag.jpg)
+![Ссылка 27](https://github.com/Firewal7/netology-diplom/blob/main/images/27.commitag.jpg)
 
 #### Создаём образы Docker:
 
