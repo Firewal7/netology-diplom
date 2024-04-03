@@ -503,7 +503,9 @@ teamcity-server            : ok=13   changed=10   unreachable=0    failed=0    s
 
 ![Ссылка 26](https://github.com/Firewal7/netology-diplom/blob/main/images/26.support.jpg)
 
-### Соберём проект:
+### Соберём проект: 
+
+#### [Полный код Build Steps находтся здесь](https://github.com/Firewal7/netology-diplom/tree/main/Teamcity)
 
 #### Этот скрипт предназначен для получения тега коммита и установки его в качестве параметра сборки.
 
@@ -562,7 +564,7 @@ To https://github.com/Firewal7/diplom-applications.git
 
 ![Ссылка 33](https://github.com/Firewal7/netology-diplom/blob/main/images/33.dockerhub.jpg)
 
-### Добавим изменение тега, создание helm и выгрузку его в ChartMuseum с последующим апдейтом в кластере Kubernetes:
+### Добавим изменение тега, создание helm и выгрузку его в Git с последующим апдейтом в кластере Kubernetes:
 
 ![Ссылка 34](https://github.com/Firewal7/netology-diplom/blob/main/images/34.gethelm.jpg)
 
