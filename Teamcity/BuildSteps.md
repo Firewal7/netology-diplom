@@ -66,5 +66,5 @@ echo "##teamcity[setParameter name='PREV_COMMIT_TAG' value='$commit_tag']"
 ```
 cd /home/ubuntu/diplom-helm
 sudo git pull --rebase
-sudo helm upgrade applications /home/ubuntu/diplom-helm/charts/applications-%COMMIT_TAG%.tgz --set container.tag=%COMMIT_TAG%
+sudo helm upgrade applications /home/ubuntu/diplom-helm/applications  --set container.tag=%COMMIT_TAG%
 ```
